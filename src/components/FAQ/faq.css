@@ -1,0 +1,60 @@
+ /*--------------faq-------------*/
+
+
+  .faq .container {
+    max-width: 70%;
+    border-radius: 5px; 
+    justify-content: center;
+  }
+  .faq .box {
+    background-color: #fff;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: block;
+
+  }
+
+  .box {
+    width: 100%;
+  }
+  .faq button {
+    padding: 0;
+    margin-left: 180px;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid;
+  }
+  .faq h2 {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+  }
+  .faq p {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+  }
+  .faq .accordion:hover {
+    background: rgb(93,147,208);
+background: linear-gradient(203deg, rgba(93,147,208,1) 19%, rgba(175,55,244,1) 67%);
+    color: #fff;
+  }
+
+   h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+    margin-bottom: 45px;
+
+  } 
+
+  .text{
+    margin-left: 327px;
+  }
+  
+  

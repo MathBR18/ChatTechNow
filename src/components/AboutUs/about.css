@@ -1,0 +1,10 @@
+.about {
+    margin-bottom: 300px;
+}
+
+.about p {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    font-weight: 400;
+}

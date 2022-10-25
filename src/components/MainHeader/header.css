@@ -1,0 +1,65 @@
+header {
+    flex: 1;
+    background: rgb(144,25,204);
+background: linear-gradient(203deg, rgba(144,25,204,1) 23%, rgba(0,0,0,1) 45%);
+    padding: 0.8% 5%;
+
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+header nav ul li {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+
+    transition: opacity 0.2s;
+}
+
+header nav ul li :hover {
+    color:rgb(224, 210, 210);
+    opacity: 0.6;
+}
+
+@media (max-width: 764px) {
+    /* header {
+        flex-direction: row;
+    } */
+
+    header nav ul li{
+        /* margin-top: 5px; */
+        flex-direction: row;
+        align-items: flex-end;
+        margin-bottom: 6px;
+        
+    }
+  
+} 
+
+
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}

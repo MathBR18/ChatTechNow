@@ -1,0 +1,15 @@
+.footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: rgb(122,46,158);
+background: linear-gradient(203deg, rgba(122,46,158,1) 16%, rgba(22,22,23,1) 51%);
+    text-align: center;
+}
+
+.footer p {
+    color: whitesmoke;
+    margin: 20px auto;
+    
+}
